@@ -1,6 +1,11 @@
 main {
-  height: calc(100vh - 180px);
+  height: calc(100vh - 204px);
   grid-area: main;
+
+  @media (min-width: 1380px) {
+    display: flex;
+    justify-content: center;
+  }
 
   .hero {
     height: 100%;
@@ -10,6 +15,15 @@ main {
 
     &-splash {
       color: $colour-white;
+
+      @media (min-width: 1380px) {
+        max-width: 60%;
+
+        h2 {
+          font-size: 6.5rem;
+          line-height: 6rem;
+        }
+      }
     }
   }
 }

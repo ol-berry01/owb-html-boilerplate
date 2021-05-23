@@ -16,10 +16,11 @@ body {
     "header"
     "main"
     "footer";
-  grid-template-rows: 100px 1fr 80px;
+  grid-template-rows: 124px 1fr 80px;
 
   @media (min-width: 1380px) {
     background-position: center center;
+    grid-template-rows: 100px 1fr 80px;
   }
 }
 
@@ -42,7 +43,7 @@ h2 {
   padding: 15px;
 
   @media (min-width: 1380px) {
-    max-width: 1380px;
+    width: 1380px;
   }
 }
 
