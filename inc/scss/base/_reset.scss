@@ -6,6 +6,17 @@
 
 body {
   background-color: $colour-white;
+  background: url("../img/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 100px;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-rows: 100px 1fr 60px;
 }
 
 h1,
@@ -17,6 +28,21 @@ h6 {
   font-family: $header-font;
 }
 
+h2 {
+  margin-bottom: 2rem;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+}
+
 .container {
-  padding: 0 15px;
+  padding: 15px;
+}
+
+.overlay {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.55) 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }

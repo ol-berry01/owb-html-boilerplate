@@ -1,0 +1,15 @@
+main {
+  height: calc(100vh - 160px);
+  grid-area: main;
+
+  .hero {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+
+    &-splash {
+      color: $colour-white;
+    }
+  }
+}
