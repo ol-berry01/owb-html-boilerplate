@@ -1,0 +1,24 @@
+.footer {
+  height: 100%;
+  padding: 0 15px;
+  grid-area: footer;
+  position: relative;
+
+  .message-toggle {
+    background: $colour-green;
+    height: 3.75rem;
+    width: 3.75rem;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      color: $colour-white;
+      font-size: 1.5rem;
+    }
+  }
+}

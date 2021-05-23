@@ -10,9 +10,9 @@ header {
 
   .nav {
     background: $colour-white;
+    color: $colour-dark-green;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(6fr);
     grid-template-rows: 60px 40px;
     grid-template-areas:
       "search search logo logo  menu menu"
