@@ -5,5 +5,18 @@
 }
 
 body {
-  background: #333;
+  background-color: $colour-white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font;
+}
+
+.container {
+  padding: 0 15px;
 }
