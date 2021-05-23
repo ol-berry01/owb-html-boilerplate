@@ -17,6 +17,10 @@ body {
     "main"
     "footer";
   grid-template-rows: 100px 1fr 80px;
+
+  @media (min-width: 1380px) {
+    background-position: center center;
+  }
 }
 
 h1,
@@ -36,6 +40,10 @@ h2 {
 
 .container {
   padding: 15px;
+
+  @media (min-width: 1380px) {
+    max-width: 1380px;
+  }
 }
 
 .overlay {
@@ -45,4 +53,8 @@ h2 {
   right: 0;
   bottom: 0;
   left: 0;
+
+  @media (min-width: 1380px) {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.1) 100%);
+  }
 }
