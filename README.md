@@ -30,5 +30,6 @@ Desktop prototype:
 ## Installation Instructions
 
 1. Ensure npm and node are installed globally on your machine
-2. run `npm i` to install all dependencies
-3. run `npm run start` to produce dist and index.html
+2. add project images to `inc/img`
+3. run `npm i` to install all dependencies
+4. run `npm run start` to produce dist and index.html
